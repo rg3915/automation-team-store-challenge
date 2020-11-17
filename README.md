@@ -6,7 +6,7 @@
 
 - Fork this repository into your github account. All the work must be done on your forked repository.
 
-- Create a branch from `master` (e.g. `develop`) and do your job on this created branch.
+- Create a branch from `master` (e.g. `develop`) and do all of your magic on this created branch ;)
 
 - Code (and document) up
 
