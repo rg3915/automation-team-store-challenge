@@ -52,7 +52,7 @@
 
 - The frontend consumes the API you developed as a backend, and even more if it provides ways to search for contents.
 
-- You use Docker - so we can run you application locally.
+- You use Docker - so we can run your application locally.
 
 - If you deploy the application somewhere remotely where we can interact with it (although we will still try to run it locally ;).
 
