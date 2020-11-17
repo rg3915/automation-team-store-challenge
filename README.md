@@ -42,7 +42,7 @@
 
 - API documentation
 
-- Project documentation: the fashion-related resource you chose, how you structured the project and instructions to run your solution locally on a Ubuntu 18.04+ machine (backend and frontend).
+- Project documentation: the fashion-related resource you chose, how you structured the project and instructions to run your solution locally on a Ubuntu 18.04+ machine (backend and frontend). Feel free to add any information you think relevant beside that.
 
 ---
 
