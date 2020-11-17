@@ -1,7 +1,5 @@
 # Automation Team - Programming Challenge
 
-repository: <git@github.com:dafiti-group/automation-team-store-challenge.git>
-
 ---
 
 ## Instructions
@@ -12,7 +10,7 @@ repository: <git@github.com:dafiti-group/automation-team-store-challenge.git>
 
 - Code (and document) up
 
-- When finished, create a Pull Request from the created branch, to merge on master.
+- When finished, create a Pull Request from the created branch to master.
 
 - Send an email to us with the Pull Request link. These way we can request access to review it and provide you feedback.
 
