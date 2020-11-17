@@ -4,7 +4,7 @@
 
 ## Instructions
 
-- Fork this repository into your github account
+- Fork this repository into your github account. All the work must be done on your forked repository.
 
 - Create a branch from `master` (e.g. `develop`) and do your job on this created branch.
 
@@ -12,7 +12,7 @@
 
 - When finished, create a Pull Request from the created branch to master.
 
-- Send an email to us with the Pull Request link. These way we can request access to review it and provide you feedback.
+- Send an email to us with the Pull Request link (from your forked repository). These way we can request access to review it and provide you feedback.
 
 ---
 
