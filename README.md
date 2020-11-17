@@ -22,11 +22,11 @@
 
 - Create a RESTful JSON API to expose CRUD (Create/Retrieve/Update/Delete) operations on this resource.
 
-- Create an endpoint to populate data into the model/table using a CSV file. One of the fields of the model/table must pass through a calculation to provide its' value.
+- Create an endpoint to populate data into the model/table using a CSV file. One of the fields of the model/table must have its' value calculated based on 1 or more of the other ones.
 
-- Create a frontend that has a list of all resources.
+- Create a frontend that has a list of all resources. It must consume the backend API endpoint that lists the resources.
 
-- Provide a way to us run your application locally with all of its requirements (python and infrastructure-wide)
+- Provide a way for us to run your application locally with all of its' requirements (python and infrastructure-wide)
 
 ---
 
@@ -42,7 +42,11 @@
 
 - API documentation
 
-- Project documentation: the fashion-related resource you chose, how you structured the project and instructions to run your solution locally on a Ubuntu 18.04+ machine (backend and frontend). Feel free to add any information you think relevant beside that.
+- Project documentation: the fashion-related resource you chose, how you structured the project and instructions to run your solution locally on a Ubuntu 18.04+ machine (backend and frontend). Feel free to add any other relevant information.
+
+- Automated tests
+
+- Code consistency (through automated formatters, linters, etc...)
 
 ---
 
@@ -50,7 +54,7 @@
 
 - You handle the documentation with love and care (attention to details is a HUGE seller here)
 
-- The frontend consumes the API you developed as a backend, and even more if it provides ways to search for contents.
+- The frontend consumes ALL the backend API endpoints of the resource, and even more if it provides ways to search for contents.
 
 - You use Docker - so we can run your application locally.
 
