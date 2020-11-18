@@ -42,7 +42,7 @@
 
 - API documentation
 
-- Project documentation: the fashion-related resource you chose, how you structured the project and instructions to run your solution locally on a Ubuntu 18.04+ machine (backend and frontend). Feel free to add any other relevant information.
+- Project documentation: the fashion-related resource you chose, how you structured the project and instructions to run your solution locally on an Ubuntu 18.04+ machine (backend and frontend). Feel free to add any other relevant information.
 
 - Automated tests
 
@@ -64,6 +64,6 @@
 
 ## Frameworks, databases and other tooling
 
-On our team we architecture applications with microservices in mind. All new applications (and nowadays the majority of them) are developed on python 3.8+, django or flask, postgres as the database, redis as cache and celery/rabbitmq when we need to deal with processing/flows too long to finish on a request-response cycle. We package our applications as docker images and deploy with kubernetes using helm charts. But feel free to use frameworks, databases and tooling your are the most familiar with.
+In our team we architecture applications with microservices in mind. All new applications (and nowadays the majority of them) are developed on python 3.8+, django or flask, postgres as the database, redis as cache and celery/rabbitmq when we need to deal with processing/flows too long to finish on a request-response cycle. We package our applications as docker images and deploy with kubernetes using helm charts. But feel free to use frameworks, databases and tooling your are the most familiar with.
 
 
