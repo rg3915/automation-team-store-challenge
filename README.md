@@ -4,7 +4,7 @@
 
 ## Instructions
 
-- Fork this repository into your personal github account. All the work must be done on your personal forked repository, on a private repository.
+- Fork this repository into your personal github account. All the work must be done on your personal forked repository. We will trust you to our hearts not to take "inspiration" from other available forks. ;)
 
 - Create a branch from `master` (e.g. `develop`) and do all of your magic on this created branch ;)
 
@@ -32,7 +32,7 @@
 
 ## What will be taken into account
 
-- Your understanding and conformity to the requirements (sections "Instructions" and "The Challenge" above)
+- Your understanding and conformity to the requirements (sections "Instructions" and "The Challenge" above).
 
 - Your development workflow
 
