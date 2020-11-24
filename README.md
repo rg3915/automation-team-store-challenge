@@ -4,15 +4,15 @@
 
 ## Instructions
 
-- Fork this repository into your github account. All the work must be done on your forked repository.
+- Fork this repository into your personal github account. All the work must be done on your personal forked repository, on a private repository.
 
 - Create a branch from `master` (e.g. `develop`) and do all of your magic on this created branch ;)
 
 - Code (and document) up
 
-- When finished, create a Pull Request from the created branch to master.
+- When finished, create a Pull Request from the created branch to master
 
-- Send an email to us with the Pull Request link (from your forked repository). That way we can request access to review it and provide you feedback.
+- Send an email to us with the Pull Request link (from your personal forked private repository). That way we can request access to review it and provide you feedback.
 
 ---
 
@@ -32,7 +32,7 @@
 
 ## What will be taken into account
 
-- Your understanding of the requirements
+- Your understanding and conformity to the requirements (sections "Instructions" and "The Challenge" above)
 
 - Your development workflow
 
