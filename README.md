@@ -12,7 +12,7 @@
 
 - When finished, create a Pull Request from the created branch to master
 
-- Send an email to us with the Pull Request link (from your personal forked private repository). That way we can request access to review it and provide you feedback.
+- Send an email to us with the Pull Request link on your personal forked repository - NOT on this repository. That way we can request access to review it and provide you feedback.
 
 ---
 
