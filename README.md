@@ -10,21 +10,21 @@ Thank you to take part on this technical challenge! We designed it to be conveni
 
 # Instructions
 
-You have 2 ways you can show us the best you can do: the first is the freedom for you to choose from your github projects' portfolio. The second is a challenge that we propose, if you feel more inclined to that. Choose the one which is most convenient to you, given your time availability restrictions. No matter the one you choose, the criteria we will use to evaluate will be same. After you decide which one is the best to you, answer the e-mail on which this challenge was provided to you, updating us on what option you will choose and when you will deliver the test to our evaluation (we believe it can be delivered in less then and at maximum 7 days).
+You have 2 ways you can show us the best you can do: the first is the freedom for you to choose from your github projects' portfolio. The second is a challenge that we propose, if you feel more inclined to that. Choose the one which is most convenient to you, given your time availability restrictions. No matter the one you choose, the criteria we will use to evaluate will be same. After you decide which one is the best to you, answer the e-mail telling us what option you will choose and when you will deliver the test to our evaluation (we believe it can be delivered in less then and at maximum 7 days).
 
 ## OPTION 1: YOU CHOOSE WHAT TO SHOW US
 
 ### Steps
 
-- 1) Choose a github repository of yours that already has an existing project. This project must use a python web framework (django, flask, etc...), and provide at least a database. The more it provides, e.g. Redis, Celery tasks, etc..., the best for us to evaluate what you're capable to deliver.
+1) Choose a github repository of yours that already has an existing project. This project must use a python web framework (django, flask, etc...), and provide at least a database. The more it provides, e.g. Redis, Celery tasks, etc..., the best for us to evaluate what you're capable to deliver.
 
-- 2) Write a great README, explaining the problem domain you're solving with the project, its' scope and any useful "business" requirement that must be taken into account.
+2) Write a great README, explaining the problem domain you're solving with the project, its' scope and any useful "business" requirement that must be taken into account.
 
-- 3) Provide a way for us to run your application locally with all of its' requirements (python and infrastructure-wide). An alternative is to host it somewhere we can interact with the API and frontend. It would be great to document the steps required to that on the README. ;)
+3) Provide a way for us to run your application locally with all of its' requirements (python and infrastructure-wide). An alternative is to host it somewhere we can interact with the API and frontend. It would be great to document the steps required to that on the README. ;)
 
-- 4) If you decide to make enhancements to the existing project, that will be awesome. E.g.: requirements updates, fixes to the test suite due to the updates, writing new tests, enhancing existing project documentation... all of that will raise even more our interest. To make it easy for us to track those enhancements, we ask you to open a new branch on the project and create a Pull Request, and to send us the link to it so that we can evaluate.
+4) If you decide to make enhancements to the existing project, that will be awesome. E.g.: requirements updates, fixes to the test suite due to the updates, writing new tests, enhancing existing project documentation... all of that will raise even more our interest. To make it easy for us to track those enhancements, we ask you to open a new branch on the project and create a Pull Request, and to send us the link to it so that we can evaluate.
 
-- 5) If you opt not to make any enhancement to the existing project, that is also valid - since you follow steps 1 to 3. ;)
+5) If you opt not to make any enhancement to the existing project, that is also valid - since you follow steps 1 to 3. ;)
 
 ### Tips
 
