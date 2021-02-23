@@ -1,16 +1,16 @@
-# Automation Team - Programming Challenge
+# Automation Team - Technical Challenge
 
 ---
 
 # Greetings
 
-Thank you on participating of our team's programming challenge. We want it to be convenient, low friction and useful to you as possible - taking into account you have given your best, and to respect that we will in return evaluate your job and provide useful and meaningful feedback.
+Thank you to take part on this technical challenge! We designed it to be convenient, low friction and useful to you - taking into account you have given your best, and to honor that we will evaluate your job providing useful, respectful and meaningful feedback.
 
 ---
 
 # Instructions
 
-You have 2 ways you can show us the best you can do: the first is a challenge that we propose, and the second is . Feel free to choose the one which is most convenient to you, given your time availability restrictions. No matter the one you choose, the criteria we will use to evaluate will be same.
+You have 2 ways you can show us the best you can do: the first is the freedom for you to choose from your github projects' portfolio. The second is a challenge that we propose, if you feel more inclined to that. Choose the one which is most convenient to you, given your time availability restrictions. No matter the one you choose, the criteria we will use to evaluate will be same. After you decide which one is the best to you, answer the e-mail on which this challenge was provided to you, updating us on what option you will choose and when you will deliver the test to our evaluation (we believe it can be delivered in less then and at maximum 7 days).
 
 ## OPTION 1: YOU CHOOSE WHAT TO SHOW US
 
