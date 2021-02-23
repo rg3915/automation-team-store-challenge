@@ -10,7 +10,7 @@ Thank you to take part on this technical challenge! We designed it to be conveni
 
 # Instructions
 
-You have 2 ways you can show us the best you can do: the first is the freedom for you to choose from your github projects' portfolio. The second is a challenge that we propose, if you feel more inclined to that. Choose the one which is most convenient to you, given your time availability restrictions. No matter the one you choose, the criteria we will use to evaluate will be same. After you decide which one is the best to you, answer the e-mail telling us what option you will choose and when you will deliver the test to our evaluation (we believe it can be delivered in less then and at maximum 7 days).
+You have 2 ways you can show us the best you can do: the first is the freedom for you to choose from your github projects' portfolio. The second is a challenge that we propose, if you feel more inclined to that. Choose the one which is most convenient to you, given your time availability restrictions. No matter the one you choose, the criteria we will use to evaluate will be the same. After you decide which one is the best to you, answer the e-mail telling us what option you will choose and when you will deliver the test to our evaluation (we believe it can be delivered in less then and at maximum 7 days).
 
 ## OPTION 1: YOU CHOOSE WHAT TO SHOW US
 
