@@ -2,7 +2,54 @@
 
 ---
 
-## Instructions
+# Greetings
+
+Thank you on participating of our team's programming challenge. We want it to be convenient, low friction and useful to you as possible - taking into account you have given your best, and to respect that we will in return evaluate your job and provide useful and meaningful feedback.
+
+---
+
+# Instructions
+
+You have 2 ways you can show us the best you can do: the first is a challenge that we propose, and the second is . Feel free to choose the one which is most convenient to you, given your time availability restrictions. No matter the one you choose, the criteria we will use to evaluate will be same.
+
+## OPTION 1: YOU CHOOSE WHAT TO SHOW US
+
+### Steps
+
+- 1) Choose a github repository of yours that already has an existing project. This project must use a python web framework (django, flask, etc...), and provide at least a database. The more it provides, e.g. Redis, Celery tasks, etc..., the best for us to evaluate what you're capable to deliver.
+
+- 2) Write a great README, explaining the problem domain you're solving with the project, its' scope and any useful "business" requirement that must be taken into account.
+
+- 3) Provide a way for us to run your application locally with all of its' requirements (python and infrastructure-wide). An alternative is to host it somewhere we can interact with the API and frontend. It would be great to document the steps required to that on the README. ;)
+
+- 4) If you decide to make enhancements to the existing project, that will be awesome. E.g.: requirements updates, fixes to the test suite due to the updates, writing new tests, enhancing existing project documentation... all of that will raise even more our interest. To make it easy for us to track those enhancements, we ask you to open a new branch on the project and create a Pull Request, and to send us the link to it so that we can evaluate.
+
+- 5) If you opt not to make any enhancement to the existing project, that is also valid - since you follow steps 1 to 3. ;)
+
+### Tips
+
+- Choose the repository wisely - the one you are most technically proud of is a good metric to show us your best work. ;)
+
+- We will trust you to our hearts that the work you deliver is yours, and it reflects the best of you. =D
+
+- You are expected to **be able to explain to us your project problem domain and its' architecture** when you go the video interview. Any code suggestions and doubts we have we will make directly into your code, in a code review format, so that we can have a practical conversation and feedback cycle. So, prepare yourself accordingly. ;)
+
+
+## OPTION 2: OUR CHALLENGE TO YOU
+
+### Specification
+
+- As a business requirement, choose a fashion-related resource. E.g. shoes, pants, shirts, etc...
+
+- Create a RESTful JSON API to expose CRUD (Create/Retrieve/Update/Delete) operations on this resource.
+
+- Create a frontend to the API. You are free to do that server-side, e.g. with Django Admin, or client side with a frontend framework of your choice.
+
+- Provide a way for us to run your application locally with all of its' requirements (python and infrastructure-wide). An alternative is to host it somewhere we can interact with the API and frontend. It would be great to document the steps required to that on the README. ;)
+
+- Optional requirement: Create an endpoint to populate data into the model/table using a CSV file. One of the fields of the model/table must have its' value calculated based on 1 or more of the other ones.
+
+### Steps
 
 - Fork this repository into your personal github account. All the work must be done on your personal forked repository. We will trust you to our hearts not to take "inspiration" from other available forks. ;)
 
@@ -14,25 +61,12 @@
 
 - Send an email to us with the Pull Request link on your personal forked repository - NOT on this repository. That way we can request access to review it and provide you feedback.
 
----
-
-## The Challenge
-
-- As a business requirement, choose a fashion-related resource. E.g. shoes, pants, shirts, etc...
-
-- Create a RESTful JSON API to expose CRUD (Create/Retrieve/Update/Delete) operations on this resource.
-
-- Create an endpoint to populate data into the model/table using a CSV file. One of the fields of the model/table must have its' value calculated based on 1 or more of the other ones.
-
-- Create a frontend that has a list of all resources. It must consume the backend API endpoint that lists the resources.
-
-- Provide a way for us to run your application locally with all of its' requirements (python and infrastructure-wide)
 
 ---
 
-## What will be taken into account
+## What will be evaluated
 
-- Your understanding and conformity to the requirements (sections "Instructions" and "The Challenge" above).
+- Your understanding and conformity to the business specification
 
 - Your development workflow
 
@@ -42,7 +76,7 @@
 
 - API documentation
 
-- Project documentation: the fashion-related resource you chose, how you structured the project and instructions to run your solution locally on an Ubuntu 18.04+ machine (backend and frontend). Feel free to add any other relevant information.
+- Project documentation: the business specification, the project structure/architecture, instructions to run your solution locally on an Ubuntu 18.04+ machine - or on a working remote environment it was deployed to. Feel free to add any other relevant information.
 
 - Automated tests
 
@@ -56,14 +90,14 @@
 
 - The frontend consumes ALL the backend API endpoints of the resource, and even more if it provides ways to search for contents.
 
-- You use Docker - so we can run your application locally.
+- You use Docker - so we can run your application easily locally.
 
-- If you deploy the application somewhere remotely where we can interact with it (although we will still try to run it locally ;).
+- If you deploy the application somewhere remotely where we can interact with it (then we won't try to run it locally and dedicate more time to the evaluation process).
 
 ---
 
 ## Frameworks, databases and other tooling
 
-In our team we architecture applications with microservices in mind. All new applications (and nowadays the majority of them) are developed on python 3.8+, django or flask, postgres as the database, redis as cache and celery/rabbitmq when we need to deal with processing/flows too long to finish on a request-response cycle. We package our applications as docker images and deploy with kubernetes using helm charts. But feel free to use frameworks, databases and tooling your are the most familiar with.
+In our team we architecture applications with microservices in mind. All new applications (and nowadays the majority of them) are developed on python 3.8+, django or flask, postgres as the database, redis as cache and celery/rabbitmq when we need to deal with processing/flows too long to finish on a request-response cycle. We package our applications as docker images and deploy with kubernetes using helm charts. But feel free to use frameworks, databases and tooling you are most familiar with.
 
 
