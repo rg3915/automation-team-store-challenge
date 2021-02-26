@@ -16,7 +16,7 @@ You have 2 ways you can show us the best you can do: the first is the freedom fo
 
 ### Steps
 
-1) Choose a github repository of yours that already has an existing project. This project must use a python web framework (django, flask, etc...), and provide at least a database. The more it provides, e.g. Redis, Celery tasks, etc..., the best for us to evaluate what you're capable to deliver.
+1) Choose an existing project from a github repository of yours. This project must use a python web framework (django, flask, etc...), and provide at least a database. The more tools it provides, e.g. Redis, Celery tasks, etc..., the better for us to evaluate what you're capable to deliver.
 
 2) Write a great README, explaining the problem domain you're solving with the project, its' scope and any useful "business" requirement that must be taken into account.
 
