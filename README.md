@@ -4,7 +4,7 @@
 
 # Greetings
 
-Thank you to take part on this technical challenge! We designed it to be convenient, low friction and useful to you - taking into account you have given your best, and to honor that we will evaluate your job providing useful, respectful and meaningful feedback.
+Thank you to take part on this technical challenge! We designed it to be pragmatic, convenient, low friction and to also provide useful value to you - taking into account you have given your best, we will honor your efforts and evaluate your job providing useful, respectful and meaningful feedback - using a code review to do that.
 
 ---
 
