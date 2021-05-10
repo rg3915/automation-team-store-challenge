@@ -1,6 +1,6 @@
 # Automation Team - Technical Challenge
 
-Read this [README.md](tree/develop-rg3915)
+Read this [README.md](https://github.com/rg3915/automation-team-store-challenge/tree/develop-rg3915)
 
 ---
 
