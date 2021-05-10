@@ -46,7 +46,7 @@ INSTALLED_APPS = [
     'djoser',
     # my apps
     'backend.core',
-    # 'backend.product',
+    'backend.product',
     # 'backend.shopping',
 ]
 
