@@ -45,7 +45,7 @@ INSTALLED_APPS = [
     'rest_framework.authtoken',
     'djoser',
     # my apps
-    # 'backend.core',
+    'backend.core',
     # 'backend.product',
     # 'backend.shopping',
 ]
