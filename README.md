@@ -1,5 +1,7 @@
 # Automation Team - Technical Challenge
 
+Read this [README.md](/tree/develop-rg3915)
+
 ---
 
 # Greetings
