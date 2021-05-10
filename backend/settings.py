@@ -47,7 +47,7 @@ INSTALLED_APPS = [
     # my apps
     'backend.core',
     'backend.product',
-    # 'backend.shopping',
+    'backend.shopping',
 ]
 
 REST_FRAMEWORK = {
