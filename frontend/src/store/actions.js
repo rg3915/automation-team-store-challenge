@@ -42,4 +42,7 @@ export const checkUser = async ({ commit, state }, callback) => {
             callback();
         }
       })
+      .catch(() => {
+        callback();
+      })
 }
