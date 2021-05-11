@@ -13,6 +13,13 @@ Read [challenge](challenge.md)
 
 > pytest in the final of README.md
 
+
+## Models
+
+![img/models.png](img/models.png)
+
+Read more [Visualizando seus modelos com Graph Models](https://github.com/rg3915/dicas-de-django#36---django-visualizando-seus-modelos-com-graph-models)
+
 ## How to run project?
 
 ### Running with Docker
