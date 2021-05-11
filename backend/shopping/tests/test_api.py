@@ -4,13 +4,12 @@ import pytest
 
 
 @pytest.mark.django_db
-def test_create_cart(client, shop, product):
+def test_create_cart(client, user, product):
     url = '/api/v1/shopping/carts'
     cart_data = {
-        "shop_id": shop.id,
         "product_id": product.id,
         "quantity": 1,
-        "price": 120
+        "user_id": user.id
     }
     response = client.post(url, cart_data, content_type='application/json')
     assert response.status_code == HTTPStatus.OK
