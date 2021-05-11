@@ -11,6 +11,7 @@ Read [challenge](challenge.md)
 * [Django Ninja](https://www.django-rest-framework.org/)
 * [VueJS 2.6.11](https://vuejs.org/)
 
+> pytest in the final of README.md
 
 ## How to run project?
 
@@ -62,3 +63,25 @@ POST: Add to cart
 }
 ```
 
+## pytest
+
+Run pytest on local machine, without Docker.
+
+Edit `.env`, add this line
+
+```
+DOCKER=False
+```
+
+### Run backend
+
+```
+# go to principal folder
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python manage.py migrate
+
+# Finally run pytest
+pytest
+```
