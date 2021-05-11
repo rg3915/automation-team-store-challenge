@@ -21,6 +21,15 @@ Read [challenge](challenge.md)
 * Run the migrations.
 
 
+### Running with Docker
+
+```
+cp contrib/env_sample .env
+docker-compose up --build -d
+```
+
+
+
 ```
 python manage.py drf_create_token admin
 ```
