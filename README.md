@@ -8,19 +8,12 @@ Read [challenge](challenge.md)
 
 * [Python 3.8.9](https://www.python.org/)
 * [Django 3.2.2](https://www.djangoproject.com/)
-* [Django Ninja](https://www.django-rest-framework.org/)
+* [Django Ninja](https://django-ninja.rest-framework.com/)
 * [VueJS 2.6.11](https://vuejs.org/)
 
 > pytest in the final of README.md
 
 ## How to run project?
-
-* Clone this repository.
-* Create virtualenv with Python 3.
-* Active the virtualenv.
-* Install dependences.
-* Run the migrations.
-
 
 ### Running with Docker
 
