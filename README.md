@@ -24,26 +24,41 @@ Read [challenge](challenge.md)
 ### Running with Docker
 
 ```
+git clone https://github.com/rg3915/automation-team-store-challenge.git
+# After merge branch develop-rg3915 to master...
 cp contrib/env_sample .env
 docker-compose up --build -d
 ```
 
-
+Run more commands:
 
 ```
-python manage.py drf_create_token admin
+# To createsuperuser
+docker container exec -it dft_app python manage.py createsuperuser --username="admin" --email="admin@email.com"
+
+# To load data
+docker container exec -it dft_app python manage.py create_data
+
+# To create token
+docker container exec -it dft_app python manage.py drf_create_token admin
+
+# To collectstatic (optional)
+docker container exec -it dft_app python manage.py collectstatic --no-input
 ```
+
 
 ## Docs swagger
 
-http://localhost:8000/api/v1/docs
+http://0.0.0.0:8000/api/v1/docs
+
+
+POST: Add to cart
 
 ```
 {
-    "shop_id":1,
+    "user_id":1,
     "product_id":1,
-    "quantity":2,
-    "price":120
+    "quantity":2
 }
 ```
 
