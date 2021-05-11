@@ -4,6 +4,7 @@ services:
   db:
     image: postgres:11-alpine
     restart: always
+    container_name: dft_db
     volumes:
       - pgdata:/var/lib/postgresql/data
     env_file:
@@ -16,6 +17,7 @@ services:
       context: .
       dockerfile: Dockerfile
     hostname: app
+    container_name: dft_app
     stdin_open: true
     expose:
       - '8000'
@@ -30,6 +32,7 @@ services:
   nginx:
     image: nginx
     hostname: nginx
+    container_name: dft_nginx
     ports:
       - '8000:8000'
     volumes:
@@ -44,6 +47,7 @@ services:
       context: .
       dockerfile: frontend/Dockerfile
     hostname: vuejs
+    container_name: dft_frontend
     ports:
       - '80:8080'
     depends_on:
