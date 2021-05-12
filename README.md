@@ -63,6 +63,8 @@ POST: Add to cart
 }
 ```
 
+![img/docs.png](img/docs.png)
+
 ## Admin
 
 http://0.0.0.0:8000/admin
