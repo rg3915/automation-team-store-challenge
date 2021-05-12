@@ -7,7 +7,7 @@ class Product(UuidModel):
     title = models.CharField(max_length=100)
     description = models.TextField(null=True, blank=True)
     price = models.DecimalField(max_digits=9, decimal_places=2)
-    image = models.URLField(max_length=300, null=True, blank=True)
+    image = models.TextField(null=True, blank=True)
 
     class Meta:
         ordering = ('title',)
