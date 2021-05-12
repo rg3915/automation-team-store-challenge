@@ -63,6 +63,11 @@ POST: Add to cart
 }
 ```
 
+## Admin
+
+http://0.0.0.0:8000/admin
+
+
 ## pytest
 
 Run pytest on local machine, without Docker.
