@@ -3,24 +3,25 @@
         <div class="flex">
             <div class="text-center">
                 <form @submit.prevent="submitForm" class="form-signin">
-                    <img class="mb-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
-                    <h1 class="h3 mb-3 font-weight-normal">Sign up</h1>
+                    <img alt="Vue logo" width="120px" src="../assets/logo.png">
+                    <h1 class="h3 mb-3 font-weight-normal">Cadastrar</h1>
 
                     <label for="inputEmail" class="sr-only">Email</label>
-                    <input type="email" class="form-control" placeholder="Email address" required autofocus v-model="username">
+                    <input type="email" class="form-control" placeholder="E-mail" required autofocus v-model="username">
 
                     <label for="inputPassword1" class="sr-only">Password</label>
-                    <input type="password" id="inputPassword1" class="form-control" placeholder="Password" required v-model="password1">
+                    <input type="password" id="inputPassword1" class="form-control" placeholder="Senha" required v-model="password1">
 
                     <label for="inputPassword2" class="sr-only">Repeat password</label>
-                    <input type="password" id="inputPassword2" class="form-control" placeholder="Repeat password" required v-model="password2">
+                    <input type="password" id="inputPassword2" class="form-control" placeholder="Repetir Senha" required v-model="password2">
 
                     <div class="notification is-danger" v-if="errors.length">
                         <p v-for="error in errors" v-bind:key="error">{{ error }}</p>
                     </div>
 
-                    <button class="btn btn-lg btn-primary btn-block" type="submit">Submit</button>
+                    <button class="btn btn-lg btn-primary btn-block" type="submit">Salvar</button>
                 </form>
+                <router-link :to="{name: 'Login'}">Login</router-link>
             </div>
         </div>
     </div>

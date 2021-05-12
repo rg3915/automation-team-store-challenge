@@ -1,8 +1,8 @@
 <template>
   <div>
-    <h1>MyAccount</h1>
+    <h1>Minha conta</h1>
     <div>
-      <button class="btn btn-danger" @click="logout()">Logout</button>
+      <button class="btn btn-danger" @click="logout()">Sair</button>
     </div>
   </div>
 </template>

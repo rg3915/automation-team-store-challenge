@@ -15,7 +15,7 @@
 
               <template v-else>
                 <span class="user mr-2">{{ $store.state.user.username }}</span>
-                  <router-link to="/dashboard/my-account" class="button is-info">My account</router-link>
+                  <router-link to="/dashboard/my-account" class="button is-info">Minha conta</router-link>
               </template>
           </div>
           <div class="dropdown open">

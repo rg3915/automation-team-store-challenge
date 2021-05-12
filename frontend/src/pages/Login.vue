@@ -3,21 +3,22 @@
         <div class="flex">
             <div class="text-center">
                 <form @submit.prevent="submitForm" class="form-login">
-                    <img class="mb-4" src="https://getbootstrap.com/docs/4.0/assets/brand/bootstrap-solid.svg" alt="" width="72" height="72">
+                    <img alt="Vue logo" width="120px" src="../assets/logo.png">
                     <h1 class="h3 mb-3 font-weight-normal">Login</h1>
 
                     <label for="inputEmail" class="sr-only">Email</label>
-                    <input type="email" class="form-control" placeholder="Email address" required autofocus v-model="username">
+                    <input type="email" class="form-control" placeholder="E-mail" required autofocus v-model="username">
 
                     <label for="inputPassword" class="sr-only">Password</label>
-                    <input type="password" id="inputPassword" class="form-control" placeholder="Password" required v-model="password">
+                    <input type="password" id="inputPassword" class="form-control" placeholder="Senha" required v-model="password">
 
                     <div class="notification is-danger" v-if="errors.length">
                         <p v-for="error in errors" v-bind:key="error">{{ error }}</p>
                     </div>
 
-                    <button class="btn btn-lg btn-primary btn-block">Submit</button>
+                    <button class="btn btn-lg btn-primary btn-block">Entrar</button>
                 </form>
+                <router-link :to="{name: 'SignUp'}">Cadastre-se</router-link>
             </div>
         </div>
     </div>
