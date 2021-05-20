@@ -1,32 +1,26 @@
 from typing import List
-from uuid import UUID
 
-from django.contrib.auth.models import User
+from django.contrib.auth.models import Group, User
 from django.shortcuts import get_object_or_404
 from ninja import Router, Schema
+from ninja.orm import create_schema
 
-from backend.product.api import ProductSchema
 from backend.product.models import Product
 
 from .models import Cart, Shop
 
 router = Router()
 
+GroupSchema = create_schema(Group, fields=['id', 'name'])
 
-class ShopSchema(Schema):
-    id: int
-    uuid: UUID
-    user_id: int
-    purchased: bool
+UserSchema = create_schema(User, custom_fields=[
+    ('groups', List[GroupSchema], None),
+])
+
+ShopSchema = create_schema(Shop, depth=1)
 
 
-class CartSchema(Schema):
-    id: int
-    uuid: UUID
-    shop: ShopSchema
-    product: ProductSchema
-    quantity: int
-    price: float
+CartSchema = create_schema(Cart, depth=1)
 
 
 class CartSchemaIn(Schema):
