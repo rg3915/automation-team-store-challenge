@@ -1,21 +1,14 @@
 from typing import List
-from uuid import UUID
 
 from django.shortcuts import get_object_or_404
-from ninja import Router, Schema
+from ninja import Router
+from ninja.orm import create_schema
 
 from .models import Product
 
 router = Router()
 
-
-class ProductSchema(Schema):
-    id: int
-    uuid: UUID
-    title: str
-    description: str
-    price: float
-    image: str
+ProductSchema = create_schema(Product)
 
 
 @router.get("/products", response=List[ProductSchema])
